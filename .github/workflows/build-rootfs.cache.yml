@@ -72,7 +72,7 @@ jobs:
           bodyFile: "cache/.github/Releases-wip.md"
           allowUpdates: true
           removeArtifacts: true
-          token: ${{ secrets.CR_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   x86-min:
     needs: [release-start]
