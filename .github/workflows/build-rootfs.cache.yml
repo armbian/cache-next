@@ -127,7 +127,7 @@ jobs:
     with:
 
       variant: 'desktop:uefi-x86'
-      runner: 'ubuntu-latest'
+      runner: 'qemu'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -149,7 +149,7 @@ jobs:
     with:
 
       variant: 'minimal:tinkerboard'
-      runner: 'cache,aarch64'
+      runner: 'aarch64'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -172,7 +172,7 @@ jobs:
     with:
 
       variant: 'server:tinkerboard'
-      runner: 'cache,aarch64'
+      runner: 'aarch64'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -258,7 +258,7 @@ jobs:
 
     with:
       variant: 'desktop:uefi-arm64'
-      runner: 'cache,aarch64'
+      runner: 'qemu'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
