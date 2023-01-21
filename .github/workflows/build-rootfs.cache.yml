@@ -78,7 +78,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -100,7 +100,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -122,7 +122,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -144,7 +144,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -167,7 +167,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -189,7 +189,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
       variant: 'desktop:tinkerboard'
@@ -210,7 +210,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -232,7 +232,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -254,7 +254,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
       variant: 'desktop:uefi-arm64'
@@ -275,7 +275,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -297,7 +297,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
 
@@ -319,7 +319,7 @@ jobs:
     needs: [release-start]
     permissions:
       contents: none
-    uses: armbian/scripts/.github/workflows/update-cache.yml@master
+    uses: armbian/scripts/.github/workflows/armbian-framework-rootfs-cache.yml@master
 
     with:
       variant: 'desktop:uefi-riscv64'
