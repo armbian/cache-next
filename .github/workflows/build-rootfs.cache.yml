@@ -57,7 +57,7 @@ jobs:
           delete_tags: true
           delete_tag_pattern: "0"
         env:
-          GITHUB_TOKEN: ${{ secrets.CR_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout cache repository
         uses: actions/checkout@v3
