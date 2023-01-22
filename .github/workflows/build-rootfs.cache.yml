@@ -172,7 +172,7 @@ jobs:
     with:
 
       variant: 'server:tinkerboard'
-      runner: 'qemu'
+      runner: 'small'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -193,7 +193,7 @@ jobs:
 
     with:
       variant: 'desktop:tinkerboard'
-      runner: 'qemu'
+      runner: 'small'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -258,7 +258,7 @@ jobs:
 
     with:
       variant: 'desktop:uefi-arm64'
-      runner: 'qemu'
+      runner: 'small'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
