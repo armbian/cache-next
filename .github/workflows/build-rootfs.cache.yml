@@ -149,7 +149,7 @@ jobs:
     with:
 
       variant: 'minimal:tinkerboard'
-      runner: 'aarch64'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -172,7 +172,7 @@ jobs:
     with:
 
       variant: 'server:tinkerboard'
-      runner: 'small'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -193,7 +193,7 @@ jobs:
 
     with:
       variant: 'desktop:tinkerboard'
-      runner: 'small'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -215,7 +215,7 @@ jobs:
     with:
 
       variant: 'minimal:uefi-arm64'
-      runner: 'cache,aarch64'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -237,7 +237,7 @@ jobs:
     with:
 
       variant: 'server:uefi-arm64'
-      runner: 'aarch64'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -258,7 +258,7 @@ jobs:
 
     with:
       variant: 'desktop:uefi-arm64'
-      runner: 'small'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -280,7 +280,7 @@ jobs:
     with:
 
       variant: 'minimal:uefi-riscv64'
-      runner: 'RISCV64'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -302,7 +302,7 @@ jobs:
     with:
 
       variant: 'server:uefi-riscv64'
-      runner: 'RISCV64'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -323,7 +323,7 @@ jobs:
 
     with:
       variant: 'desktop:uefi-riscv64'
-      runner: 'RISCV64'
+      runner: 'ubuntu-latest'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
