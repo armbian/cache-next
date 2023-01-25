@@ -149,7 +149,7 @@ jobs:
     with:
 
       variant: 'minimal:tinkerboard'
-      runner: 'aarch64'
+      runner: 'arm'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -172,7 +172,7 @@ jobs:
     with:
 
       variant: 'server:tinkerboard'
-      runner: 'aarch64'
+      runner: 'arm'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -193,7 +193,7 @@ jobs:
 
     with:
       variant: 'desktop:tinkerboard'
-      runner: 'aarch64'
+      runner: 'small'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -215,7 +215,7 @@ jobs:
     with:
 
       variant: 'minimal:uefi-arm64'
-      runner: 'aarch64'
+      runner: 'arm'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
@@ -237,7 +237,7 @@ jobs:
     with:
 
       variant: 'server:uefi-arm64'
-      runner: 'aarch64'
+      runner: 'arm'
       rootfscache_version: ${{ needs.release-start.outputs.rootfscache_version }}
 
     secrets:
